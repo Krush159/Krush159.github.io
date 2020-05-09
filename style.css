@@ -45,6 +45,29 @@ a:focus {
     color:  #7386D5;
     
 }
+.btn-xl{
+    width: 150px; 
+    height: 150px;
+    font-size: 40px; 
+}
+.outside{
+    height: 190px;
+    width: 190px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.in{
+    width: 150px; 
+    height: 150px;
+    font-size: 40px;
+    border-radius: 100px;
+    text-align: center;
+}
+.btn{
+    background-color:#7386D5; 
+    color: white
+}
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
