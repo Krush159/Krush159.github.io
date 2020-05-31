@@ -6,10 +6,11 @@ body {
     background: #fafafa;
 }
 
-p {
+p { 
+    font-size: large;
     font-family: 'Gilda Display', serif;
     font-weight: 400;
-    line-height: 1.7em;
+    line-height: 1.5em;
     color: rgb(82, 80, 80);
 }
 
@@ -42,7 +43,7 @@ a:focus {
     padding-right: 20px;
 }
 .fa-git-alt,.fa-html5,.fa-css3-alt,.fa-js-square,.fa-bootstrap,.fa-react {
-    color:  #7386D5;
+    color:   #7386D5;
     
 }
 .btn-xl{
@@ -65,9 +66,18 @@ a:focus {
     text-align: center;
 }
 .btn{
-    background-color:#7386D5; 
+    background-color: #004e92; 
     color: white
 }
+/* .btn:hover{
+    background-color: #000428;
+    color: white;
+} */
+.resume>.btn {
+    background: #004e92;
+    color: #000428;
+}
+
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -124,10 +134,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.resume>.btn {
-    background: #fff;
-    color: #7386D5;
-}
+
 
 /* ---------------------------------------------------
     CONTENT STYLE
